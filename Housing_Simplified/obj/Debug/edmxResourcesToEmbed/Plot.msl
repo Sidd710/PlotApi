@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Housing_SimplifiedModelStoreContainer" CdmEntityContainer="Housing_SimplifiedEntities">
+    <EntitySetMapping Name="Plots">
+      <EntityTypeMapping TypeName="Housing_SimplifiedModel.Plot">
+        <MappingFragment StoreEntitySet="Plot">
+          <ScalarProperty Name="plot_id" ColumnName="plot_id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="IsSold" ColumnName="IsSold" />
+          <ScalarProperty Name="Owner_Name" ColumnName="Owner_Name" />
+          <ScalarProperty Name="Owner_Phone" ColumnName="Owner_Phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
